@@ -1,0 +1,140 @@
+.authors-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .authors-page h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .authors-page #firstp {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .authors-page h2 {
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  .author-spotlight {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .author-spotlight img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  
+  .featured-authors {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .featured-authors li {
+    flex: 1 1 calc(33.333% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-authors img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .featured-authors h3 {
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .featured-authors p {
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  .footer-content {
+    margin-top: 40px;
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-content h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .footer-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .footer-content label {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .footer-content input,
+  .footer-content textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .footer-content button {
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .footer-content button:hover {
+    background: #0056b3;
+  }
+  
+  @media (max-width: 480px) {
+    .author-spotlight img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .featured-authors img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .footer-content button {
+      font-size: 0.9em;
+    }
+  }

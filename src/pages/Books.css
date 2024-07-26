@@ -1,0 +1,71 @@
+.books-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .books-page h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .books-page p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .author-books {
+    margin-bottom: 3 rem;
+  }
+  
+  .author-books h2 {
+    font-size: 1.8em;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .book {
+    margin-bottom: 20px;
+  }
+  
+  .book h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .book p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .book p strong {
+    color: #222;
+  }
+  
+  @media (max-width: 768px) {
+    .books-page h1 {
+      font-size: 1.5em;
+    }
+  
+    .books-page p {
+      font-size: 0.9em;
+    }
+  
+    .author-books h2 {
+      font-size: 1.5em;
+    }
+  
+    .book h3 {
+      font-size: 1.2em;
+    }
+  
+    .book p {
+      font-size: 0.9em;
+    }
+  }
+  
